@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,700;1,700&display=swap');
+
+*{
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+:root {
+    background-color: rgb(255, 149, 110);
+}  
+.heading {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    font-family: 'Bungee', cursive;
+}
+
+.box {
+     background-color: whitesmoke;
+     text-align: center;
+     margin: 20px 20px;
+     padding: 10px 0px;
+     font-family: 'Julius Sans One', sans-serif;
+}
+.box input{
+    padding: 5px;
+    border-style: none;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    align-content: center;
+
+}
+.button{
+    background-color: black;
+    color: whitesmoke;
+    padding: 3px 9px;
+    font-size: 20px;
+    border-radius: 100%;
+    border-style: none;
+}
+
+li{
+    list-style: none;
+    margin: 1px 20px;
+    padding: 20px 20px;
+    background-color: whitesmoke;
+    position: relative;
+    font-family: fantasy;
+
+} 
+li:hover{
+    background-color: gray;
+}
+.timeclass{
+    position: absolute;
+    right: 0;
+    padding-right: 60px;
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.reload {
+position: sticky;
+background-color:transparent;
+padding: 0px;
+font-size: 30px;
+border-style: none ;
+color: whitesmoke;
+text-align: center;
+
+}
+
+.resetbutton{
+    text-align: center;
+}
+
+@media only screen and (min-width: 800px){ 
+    .heading {
+        margin: 20px 600px;
+        padding: 20px 20px;
+        
+    }
+
+    .box {
+
+        margin: 20px 600px;
+        padding: 10px 0px;
+        
+   }
+
+   li{
+    list-style: none;
+    margin: 1px 600px;
+    padding: 20px 20px;
+    
+
+   } 
+}
+    

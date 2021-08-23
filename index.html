@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To bo List</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./script.js" defer></script>
+    <link rel="icon" href="./images/list-write-correct-checklist-margin-note-interface-ui-13322.png">
+
+</head>
+<body>
+    <div class="ios">
+        
+        <div class="heading" >
+            <span>Today is </span>
+            <span id="date">Today is </span> <br>
+            
+        </div>   
+        
+        
+        
+        <div id="list" class="box">
+            <input type="text" id="taskname" placeholder="Add Task" >
+            <input type="time" id="timesel"  >
+            
+            <button class="button" onclick="addtask()"> + </button>
+        
+        </div>
+
+        <ul id="mylist">
+    
+        </ul>
+        <div class="resetbutton">
+        <button class="reload" onclick="location.reload()"> &#8634;</button>
+        </div>
+    </div>
+    
+</body>
+</html>
